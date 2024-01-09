@@ -66,7 +66,7 @@ advance(lastyear, year);
                 }
            }
        }
-       return (dayweek; 
+       return dayweek; 
 
 	 } 
 		 
