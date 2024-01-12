@@ -15,6 +15,7 @@ advance(lastyear, year);
  private static void advance(int lastyear, int year) 
  { 
 	  int dayweek = advanceAll(lastyear) + 1 ;
+	 /* not good, didn't need so many for loops, see official solution*/
       for (int countYear = year; countYear <= year; countYear++)
        {
 
@@ -48,7 +49,7 @@ advance(lastyear, year);
 	 { 
 
 	  int dayweek = 2;
-       
+       /* copy-past , big no-no in programming*/
        for (int countYear = 1900; countYear <= lastyear; countYear++)
        {
            for ( int countMonth=1; countMonth <=12; countMonth++)
