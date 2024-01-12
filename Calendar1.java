@@ -42,7 +42,7 @@ public class Calendar1 {
 
 	 	int dayweek = 2;
 	 	int sumSunday= 0; 
-       
+       // same as Calendar
        for (int countYear = 1900; countYear <=1999; countYear++)
        {
 
