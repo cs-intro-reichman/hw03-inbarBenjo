@@ -19,6 +19,10 @@ public class LowerCase {
         }
         
         int i = 1;  
+        /*  when we iterate a finite number of times, like in a string or array we use for loops
+            it is wrong here to use while
+            example: for (int i=0;i< s.length();i++)
+            */
         while ( i < s.length())
         {
             char ch = s.charAt(i);       
