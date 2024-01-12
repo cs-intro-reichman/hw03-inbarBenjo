@@ -18,7 +18,7 @@ public class UniqueChars {
         char sChar = 0 ; 
         Boolean available = false; 
 
-
+        // Same here, use for.
         while (i < lengthS)
         {
              
